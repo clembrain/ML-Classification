@@ -1,24 +1,84 @@
-# ML-Classification
-
-**APRIL 02, 2024**
-
----
-
-# PROJECT
+# ML-Classification  
+📅 **Date:** April 02, 2024  
+🔍 **Domain:** Banking  
+📊 **Topic:** Predictive Modeling for Telemarketing Campaigns
 
 ---
 
-## [Classification of DATA ](https://github.com/Clemobrain/Clem_Portfolio/blob/main/Big%20Data%20And%20Machine%20learning%20Project)
-
-### ABSTRACT  
-The goal of this job is to get a thorough grasp of large data systems through the exploration of particular subjects that highlight the interaction between theory and real-world applications. It entails employing well-liked big data tools and methodologies in addition to having competence with common data analysis tasks including loading, cleaning, analyzing, and producing reports. It is essential to be proficient with Python, SQL, or Linux terminal commands in order to pass this test.
+## 🔗 [View Full Project Files](https://github.com/Clemobrain/Clem_Portfolio/blob/main/Big%20Data%20And%20Machine%20learning%20Project)
 
 ---
 
-### INTRODUCTION  
-In my capacity as an AI engineer and data scientist given the opportunity to investigate more about clinical trials, I’ve carefully examined the dataset that is given me. Several important topics are intended to be addressed by this investigation, which skillfully uses visuals to bolster findings.  
+## 🧠 Abstract
 
-First, I’ll look at the total number of studies in the dataset, making sure to explicitly account for different research. The types of research that are here will next be discussed, with each type listed with its corresponding frequency in order of least to most frequent. I’ll also include the top 5 conditions found in the dataset along with their corresponding frequencies.  
+This project leverages **supervised machine learning classification techniques** to predict whether a customer will subscribe to a term deposit during a Portuguese bank's telemarketing campaign. Using publicly available data from the UCI Machine Learning Repository, the aim is to explore how decision-making can be optimized using AI models like **Random Forest**, **Decision Trees**, and **Boosted Models**.
 
-I’ll also look for sponsors, paying special attention to non-pharmaceutical businesses. I’ll count the number of clinical studies that the top 10 sponsors outside the pharmaceutical industry have supported. Etc.
-##### [CLICK TO HAVE A LOOK AT MY BACK UP FILES for this Project](https://github.com/Clemobrain/Clem_Portfolio/blob/main/Big%20Data%20And%20Machine%20learning%20Project)
+Key benefits for the bank include:  
+- Enhanced targeting of high-potential clients  
+- Improved marketing efficiency and ROI  
+- Actionable insights on customer behavior  
+
+---
+
+## 📂 Dataset Overview
+
+- **Source:** [UCI Bank Marketing Dataset](https://archive.ics.uci.edu/dataset/222/bank+marketing)  
+- **Features:** 17 (Categorical & Numerical)  
+- **Target:** Binary (`yes` or `no`) — whether a customer subscribed
+
+### 🔑 Variables
+- **Demographics:** `age`, `job`, `education`, `marital status`  
+- **Campaign Details:** `call duration`, `contact month`, `number of contacts`  
+- **Socio-Economic Indicators:** `consumer confidence index`, `employment rate`, `interest rate`
+
+---
+
+## 🧹 Data Preprocessing
+
+- Categorical Encoding with **One-Hot Encoding**
+- Standardization with **StandardScaler**
+- Feature selection via **RFECV**
+- Class imbalance handled using **Random UnderSampling** and **SMOTE**
+
+---
+
+## 📈 Exploratory Data Analysis
+
+The following visuals were generated:
+
+- **Subscription Distribution**
+- **Age vs. Subscription**
+- **Contact Month vs. Success Rate**
+- **Loan Status vs. Subscription**
+- **Correlation Heatmap**
+- **KDE and Histograms for Continuous Features**
+
+---
+
+## 🤖 Models Implemented
+
+### 1️⃣ Decision Tree Classifier
+- **Accuracy:** 80.3%  
+- **Issues:** Poor recall on the minority class  
+- **Tuned Accuracy:** 82.3%
+
+### 2️⃣ Random Forest Classifier
+- **Accuracy:** 83.0%  
+- **Tuned Accuracy:** 86.1%  
+- **Strengths:** Strong performance on minority class, better generalization
+
+### 3️⃣ Azure ML Boosted Decision Tree
+- **AUC:** 0.94  
+- **Accuracy:** 90.8%
+
+### 4️⃣ Azure ML Neural Network
+- **AUC:** 0.906  
+- **Accuracy:** 89.7%
+
+---
+
+## 📊 ROC Curve Visual
+
+```md
+![ROC Curve](/Images/roc_classification.png)  
+*Figure 1: Comparison of model discrimination power.*
