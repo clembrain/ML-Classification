@@ -53,22 +53,6 @@ Figure 5:Calculated numerical features for correlations, visualising and to view
 
 ---
 
-![onehotencoding](/Photo/onehotencoding1map.png)
-
-![onehotencoding](/Photo/onehotencoding.png)
-Figure 6: Firstly I removed the target variable and deleted the dummy class variables I used for visualisation. The dataset categorical variables are fully encoded as one-hot-encoded features and ready for modelling.
-
----
-![spliting](/Photo/split.png)
-![spliting](/Photo/split2.png)
-Figure 7:  Above I defined my features and target, I then converted my target “y” from (yes to 1 and no to 0) Splitting all feature into ‘X’ and target variable to ‘y’
-
----
-
-
-
----
-
 ### 🔑 Variables
 - **Demographics:** `age`, `job`, `education`, `marital status`  
 - **Campaign Details:** `call duration`, `contact month`, `number of contacts`  
@@ -82,6 +66,21 @@ Figure 7:  Above I defined my features and target, I then converted my target �
 - Standardization with **StandardScaler**
 - Feature selection via **RFECV**
 - Class imbalance handled using **Random UnderSampling** and **SMOTE**
+
+---
+
+![onehotencoding](/Photo/onehotencoding1map.png)
+
+---
+
+![onehotencoding](/Photo/onehotencoding.png)
+Figure 6: Firstly I removed the target variable and deleted the dummy class variables I used for visualisation. The dataset categorical variables are fully encoded as one-hot-encoded features and ready for modelling.
+
+---
+
+![spliting](/Photo/split.png)
+![spliting](/Photo/split2.png)
+Figure 7:  Above I defined my features and target, I then converted my target “y” from (yes to 1 and no to 0) Splitting all feature into ‘X’ and target variable to ‘y’
 
 ---
 
