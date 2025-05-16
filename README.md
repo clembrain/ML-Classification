@@ -33,22 +33,22 @@ Figure 1: Showing the values for No and Yes class on (subscription) target varia
 
 ---
 
-![subscription status](/Photo/subscription%20status.png)
+![subscription status](/Photo/subscription_status.png)
 Figure 2: It shows that persons within 30 years subscribe the most.
 
 ---
 
-![subscription per month](/Photo/subscription%20per%20month.png)
+![subscription per month](/Photo/subscription_per_month.png)
 Figure 3: This code uses a bar chart with stylised formatting to compute and display subscription rates by month. The month of march has highest subscription rates.
 
 ---
 
-![frequency of jobs](/Photo/frequency%20of%20jobs.png)
+![frequency of jobs](/Photo/frequency_of_jobs.png)
 Figure 4:The categorical features analysis shows histograms and KDE plots of the distribution of continuous features.  
 
 ---
 
-![correlation heat map](/Photo/correlation%20heat%20map.png)
+![correlation heat map](/Photo/correlation_heat_map.png)
 Figure 5:Calculated numerical features for correlations, visualising and to view them interactively for insights into relationships.
 
 ---
@@ -85,12 +85,37 @@ Figure 7:  Above I defined my features and target, I then converted my target �
 ---
 
 ![variance](/Photo/variance.png)
-Figure 1.28: From the result, no features were removed this means all training and testing sets had variance above the threshold.
+Figure 8: From the result, no features were removed this means all training and testing sets had variance above the threshold.
 
 ---
 
-![variance](/Photo/RFfor feature selection.png)
+![RFselection](/Photo/RFfor%20feature%20selection.png)
+Figure 9: The result “((31647, 37), (13564, 37))” shows that the feature selection process reduced the dataset from 42 to 37 features. This means 5 features were identified as less important and removed, leaving a more focused set of features for the model. This will make the model more efficient and potentially improve its performance by removing irrelevant or redundant information.
 
+---
+
+![undersampled class](/Photo/undersampled%20class.png)
+Figure 10: Addressing class imbalance by applying Random Undersampling, balancing the dataset target variable for improved model fairness.
+
+---
+
+![Decision tree class](/Photo/Decision%20tree%20class.png)
+Figure 11: The Decision Tree Classification result reports 80% accuracy and the confusion matrix is as follows.
+
+---
+
+![decission tree tune](/Photo/decission%20tree%20tune.png)
+Figure 12: The best cross-validated accuracy achieved with these parameters is 82.36%, indicating improved performance compared to the untuned model. This configuration balances complexity and predictive accuracy, making it more robust.
+
+---
+
+![randomforestclass](/Photo/randomforestclass.png)
+Figure 13: The Random Forest classifier achieved an accuracy of 83.04%. The Random Forest performs better on minority Class 1 compared to Decision Tree but still struggles with precision, indicating room for improvement in predicting positive cases.
+
+---
+
+![RFtune](/Photo/RFtune.png)
+Figure 14: The best cross-validated accuracy achieved is 86.14%, demonstrating improved performance with the tuned parameters. This setup balances complexity and predictive power for robust model performance.
 
 ---
 
@@ -107,7 +132,8 @@ Figure 1.28: From the result, no features were removed this means all training a
 
 ![Decision Tree Tuning Output](/Photo/decission%20tree%20tune.png)  
 
-![ROC Curve](/Photo/92cb52c8-ddb2-48e2-b043-d286353cf35d.png)  
+![ROC_Curve](/Photo/ROC_curve.png) 
+Figure 1.39: The outcome above distinguishes the positive and negative class using “Area Under the Curve(AUC)”
 
 
 
@@ -134,14 +160,20 @@ The following visuals were generated:
 - **Issues:** Poor recall on the minority class  
 - **Tuned Accuracy:** 82.3%
 
+---
+
 ### 2️⃣ Random Forest Classifier
 - **Accuracy:** 83.0%  
 - **Tuned Accuracy:** 86.1%  
 - **Strengths:** Strong performance on minority class, better generalization
 
+---
+
 ### 3️⃣ Azure ML Boosted Decision Tree
 - **AUC:** 0.94  
 - **Accuracy:** 90.8%
+
+---
 
 ### 4️⃣ Azure ML Neural Network
 - **AUC:** 0.906  
