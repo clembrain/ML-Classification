@@ -82,7 +82,7 @@ Figure 5:Calculated numerical features for correlations, visualising and to view
 
 ---
 
-![onehotencoding](/Photo/onehotencoding1map.png)
+![onehotencoding](/Photo/onehotencoding1.png)
 
 ---
 
@@ -149,7 +149,7 @@ Figure 14: The best cross-validated accuracy achieved is 86.14%, demonstrating i
 ---
 
 ![ROC_Curve](/Photo/ROC_curve.png) 
-Figure 1.39: The outcome above distinguishes the positive and negative class using “Area Under the Curve(AUC)”
+Figure 15: The outcome above distinguishes the positive and negative class using “Area Under the Curve(AUC)”
 
 ---
 
@@ -177,8 +177,42 @@ Figure 1.39: The outcome above distinguishes the positive and negative class usi
 
 ---
 
+![splitazure](/Photo/splitazure.png)  
+
+---
+
+![transformeddata](/Photo/transformeddata.png)  
+Figure 1.48: Next above, is shown the imbalanced class label “y” where 1 is highly dominated by 0.
+
+----
+
+![smotetarget](/Photo/smotetarget.png)  
+Figure 1.49: Next above, I split the result into 80% training and 20% testing and then I carried out SMOTE to improve the balancing of “y” also known as subscription.
+
+---
+
+![smotetarget](/Photo/smotetarget.png)  
+Figure 1.52: Also above I have attached my Two-class-boosted Decision Tree to Tune Model Hyperparameters which trained the tuned version of the model, then it would output the most efficient combination by accuracy, and compared to base model.
+
+---
+
+![first half](/Photo/first_half.png)  
+
+---
+
+![finalhalf](/Photo/finalhalf.png)
+Figure 1.53: The Score model follows and the Evaluate model are added to generate and analyse model performance.
+
+---
+
 ## 📊 ROC Curve Visual
 
 ```md
 ![ROC Curve](/Images/roc_classification.png)  
-*Figure 1: Comparison of model discrimination power.*
+*![azuretwoclass](/Photo/azuretwoclass.png)
+Figure 1.54: This shows the Two Class Boosted Decision Tree Report
+
+---
+
+![twoclassneural](/Photo/twoclassneural.png)
+Figure 1.55: This shows the Two-Class Neural Network.*
