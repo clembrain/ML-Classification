@@ -42,6 +42,25 @@ Key benefits for the bank include:
 
 ---
 
+![Azure Dataset Upload](/Photo/Azuredatasetupload.png)  
+
+![Convert to Indicator Values - Step 1](/Photo/convert1.png)  
+
+![Convert to Indicator Values - Step 2](/Photo/convert2.png)  
+
+![Correlation Heatmap](/Photo/correlation%20heat%20map.png)  
+
+![Decision Tree Classification Result](/Photo/Decision%20tree%20class.png)  
+
+![Decision Tree Tuning Output](/Photo/decission%20tree%20tune.png)  
+
+![ROC Curve](/Photo/92cb52c8-ddb2-48e2-b043-d286353cf35d.png)  
+
+
+
+
+---
+
 ## 📈 Exploratory Data Analysis
 
 The following visuals were generated:
