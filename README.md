@@ -26,6 +26,13 @@ Key benefits for the bank include:
 - **Features:** 17 (Categorical & Numerical)  
 - **Target:** Binary (`yes` or `no`) — whether a customer subscribed
 
+---
+
+![Azure Dataset Upload](/Photo/subscription.png)
+Figure 1: Showing the values for No and Yes class on (subscription) target variable.
+
+---
+
 ### 🔑 Variables
 - **Demographics:** `age`, `job`, `education`, `marital status`  
 - **Campaign Details:** `call duration`, `contact month`, `number of contacts`  
@@ -42,7 +49,9 @@ Key benefits for the bank include:
 
 ---
 
-![Azure Dataset Upload](/Photo/Azuredatasetupload.png)  
+
+![Azure Dataset Upload](/Photo/Azuredatasetupload.png)
+
 
 ![Convert to Indicator Values - Step 1](/Photo/convert1.png)  
 
