@@ -206,9 +206,9 @@ Figure 21: The Score model follows and the Evaluate model are added to generate 
 
 
 ![azuretwoclass](/Photo/azuretwoclass.png)
-Figure 1.54: This shows the Two Class Boosted Decision Tree Report
+Figure 22: This shows the Two Class Boosted Decision Tree Report
 
 ---
 
 ![twoclassneural](/Photo/twoclassneural.png)
-Figure 1.55: This shows the Two-Class Neural Network.
+Figure 23: This shows the Two-Class Neural Network.
