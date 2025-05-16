@@ -192,13 +192,13 @@ Figure 19: Next above, I split the result into 80% training and 20% testing and 
 ---
 
 ![azuretune](/Photo/azuretune.png)  
-Figure 1.52: Also above I have attached my Two-class-boosted Decision Tree to Tune Model Hyperparameters which trained the tuned version of the model, then it would output the most efficient combination by accuracy, and compared to base model.
+Figure 20: Also above I have attached my Two-class-boosted Decision Tree to Tune Model Hyperparameters which trained the tuned version of the model, then it would output the most efficient combination by accuracy, and compared to base model.
 
 ---
 
 ![first half](/Photo/first_half.png)  
 ![finalhalf](/Photo/finalhalf.png)
-Figure 1.53: The Score model follows and the Evaluate model are added to generate and analyse model performance.
+Figure 21: The Score model follows and the Evaluate model are added to generate and analyse model performance.
 
 ---
 
