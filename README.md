@@ -28,6 +28,19 @@ Key benefits for the bank include:
 
 ---
 
+## 📈 Exploratory Data Analysis
+
+The following visuals were generated:
+
+- **Subscription Distribution**
+- **Age vs. Subscription**
+- **Contact Month vs. Success Rate**
+- **Loan Status vs. Subscription**
+- **Correlation Heatmap**
+- **KDE and Histograms for Continuous Features**
+
+---
+
 ![subscription](/Photo/subscription.png)
 Figure 1: Showing the values for No and Yes class on (subscription) target variable.
 
@@ -89,23 +102,39 @@ Figure 8: From the result, no features were removed this means all training and 
 
 ---
 
-![RFselection](/Photo/RFfor%20feature%20selection.png)
+![RFselection](/Photo/RFfor_feature_selection.png)
 Figure 9: The result “((31647, 37), (13564, 37))” shows that the feature selection process reduced the dataset from 42 to 37 features. This means 5 features were identified as less important and removed, leaving a more focused set of features for the model. This will make the model more efficient and potentially improve its performance by removing irrelevant or redundant information.
 
 ---
 
-![undersampled class](/Photo/undersampled%20class.png)
+![undersampled class](/Photo/undersampled_class.png)
 Figure 10: Addressing class imbalance by applying Random Undersampling, balancing the dataset target variable for improved model fairness.
 
 ---
 
-![Decision tree class](/Photo/Decision%20tree%20class.png)
+## 🤖 Models Implemented
+
+### 1️⃣ Decision Tree Classifier
+- **Accuracy:** 80.3%  
+- **Issues:** Poor recall on the minority class  
+- **Tuned Accuracy:** 82.3%
+
+---
+
+![Decision tree class](/Photo/Decision_tree_class.png)
 Figure 11: The Decision Tree Classification result reports 80% accuracy and the confusion matrix is as follows.
 
 ---
 
-![decission tree tune](/Photo/decission%20tree%20tune.png)
+![decission tree tune](/Photo/decission_tree_tune.png)
 Figure 12: The best cross-validated accuracy achieved with these parameters is 82.36%, indicating improved performance compared to the untuned model. This configuration balances complexity and predictive accuracy, making it more robust.
+
+---
+
+### 2️⃣ Random Forest Classifier
+- **Accuracy:** 83.0%  
+- **Tuned Accuracy:** 86.1%  
+- **Strengths:** Strong performance on minority class, better generalization
 
 ---
 
@@ -119,53 +148,8 @@ Figure 14: The best cross-validated accuracy achieved is 86.14%, demonstrating i
 
 ---
 
-![Azure Dataset Upload](/Photo/Azuredatasetupload.png)
-
-
-![Convert to Indicator Values - Step 1](/Photo/convert1.png)  
-
-![Convert to Indicator Values - Step 2](/Photo/convert2.png)  
-
-![Correlation Heat map](/Photo/correlation%20heat%20map.png)  
-
-![Decision Tree Classification Result](/Photo/Decision%20tree%20class.png)  
-
-![Decision Tree Tuning Output](/Photo/decission%20tree%20tune.png)  
-
 ![ROC_Curve](/Photo/ROC_curve.png) 
 Figure 1.39: The outcome above distinguishes the positive and negative class using “Area Under the Curve(AUC)”
-
-
-
-
----
-
-## 📈 Exploratory Data Analysis
-
-The following visuals were generated:
-
-- **Subscription Distribution**
-- **Age vs. Subscription**
-- **Contact Month vs. Success Rate**
-- **Loan Status vs. Subscription**
-- **Correlation Heatmap**
-- **KDE and Histograms for Continuous Features**
-
----
-
-## 🤖 Models Implemented
-
-### 1️⃣ Decision Tree Classifier
-- **Accuracy:** 80.3%  
-- **Issues:** Poor recall on the minority class  
-- **Tuned Accuracy:** 82.3%
-
----
-
-### 2️⃣ Random Forest Classifier
-- **Accuracy:** 83.0%  
-- **Tuned Accuracy:** 86.1%  
-- **Strengths:** Strong performance on minority class, better generalization
 
 ---
 
@@ -178,6 +162,18 @@ The following visuals were generated:
 ### 4️⃣ Azure ML Neural Network
 - **AUC:** 0.906  
 - **Accuracy:** 89.7%
+
+---
+
+![Azure Dataset Upload](/Photo/Azuredatasetupload.png)
+
+---
+
+![Convert to Indicator Values - Step 1](/Photo/convert1.png)  
+
+---
+
+![Convert to Indicator Values - Step 2](/Photo/convert2.png)  
 
 ---
 
