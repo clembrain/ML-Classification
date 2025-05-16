@@ -166,40 +166,37 @@ Figure 15: The outcome above distinguishes the positive and negative class using
 ---
 
 ![Azure Dataset Upload](/Photo/Azuredatasetupload.png)
+Figure 15: Dataset upload into Azure table and visualisation
 
 ---
 
 ![Convert to Indicator Values - Step 1](/Photo/convert1.png)  
-
----
-
 ![Convert to Indicator Values - Step 2](/Photo/convert2.png)  
+Figure 16: Using Execute-Python-Script was used to convert the categorical target variables from (yes to 1 and no to 0).
 
 ---
 
-![splitazure](/Photo/splitazure.png)  
+![Normalise](/Photo/splitazure.png)  
+Figure 17: Using the normalise data module above to scale the dataset using MinMax scaler method.
 
 ---
 
 ![transformeddata](/Photo/transformeddata.png)  
-Figure 1.48: Next above, is shown the imbalanced class label “y” where 1 is highly dominated by 0.
+Figure 18: Next above, is shown the imbalanced class label “y” where 1 is highly dominated by 0.
 
 ----
 
 ![smotetarget](/Photo/smotetarget.png)  
-Figure 1.49: Next above, I split the result into 80% training and 20% testing and then I carried out SMOTE to improve the balancing of “y” also known as subscription.
+Figure 19: Next above, I split the result into 80% training and 20% testing and then I carried out SMOTE to improve the balancing of “y” also known as subscription.
 
 ---
 
-![smotetarget](/Photo/smotetarget.png)  
+![azuretune](/Photo/azuretune.png)  
 Figure 1.52: Also above I have attached my Two-class-boosted Decision Tree to Tune Model Hyperparameters which trained the tuned version of the model, then it would output the most efficient combination by accuracy, and compared to base model.
 
 ---
 
 ![first half](/Photo/first_half.png)  
-
----
-
 ![finalhalf](/Photo/finalhalf.png)
 Figure 1.53: The Score model follows and the Evaluate model are added to generate and analyse model performance.
 
@@ -207,12 +204,11 @@ Figure 1.53: The Score model follows and the Evaluate model are added to generat
 
 ## 📊 ROC Curve Visual
 
-```md
-![ROC Curve](/Images/roc_classification.png)  
-*![azuretwoclass](/Photo/azuretwoclass.png)
+
+![azuretwoclass](/Photo/azuretwoclass.png)
 Figure 1.54: This shows the Two Class Boosted Decision Tree Report
 
 ---
 
 ![twoclassneural](/Photo/twoclassneural.png)
-Figure 1.55: This shows the Two-Class Neural Network.*
+Figure 1.55: This shows the Two-Class Neural Network.
