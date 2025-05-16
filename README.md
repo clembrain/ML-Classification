@@ -84,6 +84,15 @@ Figure 7:  Above I defined my features and target, I then converted my target â€
 
 ---
 
+![variance](/Photo/variance.png)
+Figure 1.28: From the result, no features were removed this means all training and testing sets had variance above the threshold.
+
+---
+
+![variance](/Photo/RFfor feature selection.png)
+
+
+---
 
 ![Azure Dataset Upload](/Photo/Azuredatasetupload.png)
 
@@ -92,7 +101,7 @@ Figure 7:  Above I defined my features and target, I then converted my target â€
 
 ![Convert to Indicator Values - Step 2](/Photo/convert2.png)  
 
-![Correlation Heatmap](/Photo/correlation%20heat%20map.png)  
+![Correlation Heat map](/Photo/correlation%20heat%20map.png)  
 
 ![Decision Tree Classification Result](/Photo/Decision%20tree%20class.png)  
 
