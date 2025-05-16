@@ -28,8 +28,44 @@ Key benefits for the bank include:
 
 ---
 
-![Azure Dataset Upload](/Photo/subscription.png)
+![subscription](/Photo/subscription.png)
 Figure 1: Showing the values for No and Yes class on (subscription) target variable.
+
+---
+
+![subscription status](/Photo/subscription%20status.png)
+Figure 2: It shows that persons within 30 years subscribe the most.
+
+---
+
+![subscription per month](/Photo/subscription%20per%20month.png)
+Figure 3: This code uses a bar chart with stylised formatting to compute and display subscription rates by month. The month of march has highest subscription rates.
+
+---
+
+![frequency of jobs](/Photo/frequency%20of%20jobs.png)
+Figure 4:The categorical features analysis shows histograms and KDE plots of the distribution of continuous features.  
+
+---
+
+![correlation heat map](/Photo/correlation%20heat%20map.png)
+Figure 5:Calculated numerical features for correlations, visualising and to view them interactively for insights into relationships.
+
+---
+
+![onehotencoding](/Photo/onehotencoding1map.png)
+
+![onehotencoding](/Photo/onehotencoding.png)
+Figure 6: Firstly I removed the target variable and deleted the dummy class variables I used for visualisation. The dataset categorical variables are fully encoded as one-hot-encoded features and ready for modelling.
+
+---
+![spliting](/Photo/split.png)
+![spliting](/Photo/split2.png)
+Figure 7:  Above I defined my features and target, I then converted my target “y” from (yes to 1 and no to 0) Splitting all feature into ‘X’ and target variable to ‘y’
+
+---
+
+
 
 ---
 
